@@ -1,0 +1,124 @@
+.calendarcontainer {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 655px;
+  font-family: 'Segoe UI', sans-serif;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.calendarheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+
+.calendar-header h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1c1c1e;
+}
+
+.weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  color: #7a7a7a;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.days {
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+  font-size: 14px;
+  text-align: center;
+}
+.TopBottomzeromargin{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.day {
+  padding: 10px 0;
+  border-radius: 8px;
+  background-color: #f3f4f6;
+  color: #1c1c1e;
+  cursor: pointer;
+}
+
+.day.highlight {
+  background-color: #4338ca;
+  color: #fff;
+  font-weight: 600;
+}
+
+.day.appointment {
+  background-color: #e0e7ff;
+  color: #4338ca;
+  font-weight: 500;
+}
+
+.time_slots {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.time-slot {
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #f9f9fb;
+  font-size: 14px;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+}
+
+.time_slot_dentist {
+  background-color: #eef2ff;
+  color: #4338ca;
+  font-weight: 500;
+}
+
+.time-slot.physio {
+  background-color: #ede9fe;
+  color: #7c3aed;
+  font-weight: 500;
+}
+.appointmenttime{
+  display: flex;
+  flex-direction: row;
+}
+
+.appointmentPhysiotherapy {
+  display: flex;
+  align-items: center;
+  background: #eaefff;
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-bottom: 0px;
+  flex-direction: column;
+  width: auto;
+  margin-top: 0px;
+  width: 300px;
+   font-weight: 500;
+}
+.appointmentDentist {
+  display: flex;
+  align-items: center;
+  background-color: #3a3a92;
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-bottom: 0px;
+  flex-direction: column;
+  color: white;
+  font-weight: 500;
+  /* padding-right: 30px; */
+}

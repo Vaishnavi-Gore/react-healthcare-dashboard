@@ -1,0 +1,36 @@
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #f5f9ff;
+}
+
+.rightColumn {
+  background: white;
+  padding:0px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  background-color: #f5f9ff;
+  margin-top:0px ;
+}
+
+.placeholder {
+  color: gray;
+  text-align: center;
+  padding: 2rem;
+}
+.anatomyindicators {
+ display: flex;
+ flex-direction: row;
+ height: 350px;
+ background-color: hsl(216, 100%, 98%);
+ border-radius: 15px;
+ 
+}

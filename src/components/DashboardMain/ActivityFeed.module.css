@@ -1,0 +1,75 @@
+.activity_feed {
+  background-color: #f5f9ff;
+  padding: 16px 24px;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(231, 231, 231, 0.04);
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+.activity_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  flex-direction: row;
+}
+
+.activity_header_h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #2d2f42;
+}
+
+.activity_header_span {
+  font-size: 0.85rem;
+  color: gray;
+}
+
+.activity_chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 120px;
+  padding-top: 10px;
+}
+
+.day_column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+}
+
+.bars {
+  display: flex;
+  gap: 3px;
+  align-items: flex-end;
+  height: 90px;
+}
+
+.bar {
+  width: 6px;
+  border-radius: 3px;
+}
+
+.bar-0 {
+  background-color: #5dd5c8;
+}
+
+.bar-1 {
+  background-color: #d3d6dd;
+}
+
+.bar-2 {
+  background-color: #3a3a92;
+}
+
+.day-label {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #666;
+}

@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  align-items: center;
+  background: #eaefff;
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+
+.icon {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.info .title {
+  font-weight: 500;
+}
+
+.time {
+  font-size: 0.8rem;
+  color: gray;
+}
